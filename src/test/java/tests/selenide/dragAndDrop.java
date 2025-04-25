@@ -23,7 +23,6 @@ public class dragAndDrop {
         // Проверить, что прямоугольники действительно поменялись
         $("#column-a").shouldHave(text("B"));
         $("#column-b").shouldHave(text("A"));
-        // В Selenide есть команда $(element).dragAndDrop($(to-element)), проверить работает ли тест, если использовать её вместо actions()
     }
 
     @Test
