@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c12fc0-c9ba-45d2-aab4-042a4003f2cd" name="Changes" comment="update with githubSolutionEnterprize">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/selenide/dragAndDrop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="f1c12fc0-c9ba-45d2-aab4-042a4003f2cd" name="Changes" comment="update dragAndDrop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.github.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/github/githubSolutionEnterprize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/github/GithubSolutionEnterprize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,39 +80,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.BestContributorSelenide.andreiSolntsevShouldBeTheFirstContributor.executor": "Run",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "Gradle.PracticeFormTests.executor": "Run",
-    "Gradle.PracticeFormTests.fillFormTest (1).executor": "Run",
-    "Gradle.PracticeFormTests.fillFormTest.executor": "Run",
-    "Gradle.SearchInGitHub.successfulSearchInGithub.executor": "Run",
-    "Gradle.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Run",
-    "Gradle.SelenideSoftAssertonsOpen.softAssertionsOpenAndHaveJUnit5.executor": "Run",
-    "Gradle.SimpleJUnitTest.successfulSearchTest (1).executor": "Run",
-    "Gradle.SimpleJUnitTest.successfulSearchTest.executor": "Run",
-    "Gradle.Tests in 'tests.github'.executor": "Run",
-    "Gradle.dragAndDrop.dragAndDrop.executor": "Run",
-    "Gradle.dragAndDrop.dragAndDropSelenide.executor": "Run",
-    "Gradle.githubSolutionEnterprize.githubSolutionEnterprize.executor": "Run",
-    "Gradle.testKolVlad.successfulSearchInGithub.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.BestContributorSelenide.andreiSolntsevShouldBeTheFirstContributor.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticeFormTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticeFormTests.fillFormTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PracticeFormTests.fillFormTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SearchInGitHub.successfulSearchInGithub.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SelenideSoftAssertonsOpen.softAssertionsOpenAndHaveJUnit5.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleJUnitTest.successfulSearchTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleJUnitTest.successfulSearchTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Tests in 'tests.github'.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dragAndDrop.dragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dragAndDrop.dragAndDropSelenide.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.dragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.githubSolutionEnterprize.githubSolutionEnterprize.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.testKolVlad.successfulSearchInGithub.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\t.rozova\AquaProjects\demoqa-tests-1\src\test\resources\IMG" />
@@ -337,7 +326,23 @@
       <option name="project" value="LOCAL" />
       <updated>1745574960108</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update dragAndDrop">
+      <option name="closed" value="true" />
+      <created>1745577119536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745577119536</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update dragAndDrop">
+      <option name="closed" value="true" />
+      <created>1745577226466</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745577226466</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,15 +366,16 @@
     <MESSAGE value="update with comment" />
     <MESSAGE value="update without comment" />
     <MESSAGE value="update with githubSolutionEnterprize" />
-    <option name="LAST_COMMIT_MESSAGE" value="update with githubSolutionEnterprize" />
+    <MESSAGE value="update dragAndDrop" />
+    <option name="LAST_COMMIT_MESSAGE" value="update dragAndDrop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/github/githubSolutionEnterprize.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/tests/github/GithubSolutionEnterprize.java</url>
           <line>12</line>
-          <properties class="tests.github.githubSolutionEnterprize" method="githubSolutionEnterprize">
+          <properties class="tests.github.GithubSolutionEnterprize" method="githubSolutionEnterprize">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

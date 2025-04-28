@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.withTagAndText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class githubSolutionEnterprize {
+public class GithubSolutionEnterprize {
 
     @Test
     void githubSolutionEnterprize() {
