@@ -4,8 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 import pages.components.AddressComponent;
 import pages.components.CalendarComponent;
 
-import static com.codeborne.selenide.Condition.appear;
-import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.executeJavaScript;
@@ -13,6 +12,7 @@ import static com.codeborne.selenide.Selenide.executeJavaScript;
 public class RegistrationPage {
 
     private SelenideElement
+            userForm = $("#userForm"),
             firstNameInput = $("#firstName"),
             lastNameInput = $("#lastName"),
             userEmailInput = $("#userEmail"),
@@ -80,7 +80,7 @@ public class RegistrationPage {
         return this;
     }
     public RegistrationPage clickButtonSubmit() {
-        buttonSubmit.click();
+        buttonSubmit.scrollIntoView(true).click();
         return this;
     }
     public RegistrationPage checkResultTitle(String value) {
@@ -92,6 +92,13 @@ public class RegistrationPage {
     public RegistrationPage checkResult(String key, String value) {
         $(".table-responsive").$(byText(key)).parent()
                 .shouldHave(text(value));
+        return this;
+    }
+    public RegistrationPage checkValidation() {
+        userForm.shouldHave(cssClass("was-validated"));
+        firstNameInput.shouldHave(cssValue("border-color", "rgb(220, 53, 69)"));
+        lastNameInput.shouldHave(cssValue("border-color","rgb(220, 53, 69)"));
+        userNumberInput.shouldHave(cssValue("border-color","rgb(220, 53, 69)"));
         return this;
     }
 }

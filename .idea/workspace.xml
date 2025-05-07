@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1c12fc0-c9ba-45d2-aab4-042a4003f2cd" name="Changes" comment="added page object">
+    <list default="true" id="f1c12fc0-c9ba-45d2-aab4-042a4003f2cd" name="Changes" comment="delete musor">
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.13/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,19 +13,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/SimpleJUnitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/github/BestContributorSelenide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/github/SelenideRepositorySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/github/SelenideSoftAssertonsOpen.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SimpleJUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/github/BestContributorSelenide.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/github/GithubSolutionEnterprize.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/github/SelenideRepositorySearch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/github/SelenideSoftAssertonsOpen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/selenide/dragAndDrop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PracticeFormWithPageObjectsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PracticeFormWithPageObjectsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,41 +96,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.BestContributorSelenide.andreiSolntsevShouldBeTheFirstContributor.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PracticeFormTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PracticeFormTests.fillFormTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PracticeFormTests.fillFormTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PracticeFormWithPageObjectsTests.fillFormTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SearchInGitHub.successfulSearchInGithub.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SelenideSoftAssertonsOpen.softAssertionsOpenAndHaveJUnit5.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SimpleJUnitTest.successfulSearchTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SimpleJUnitTest.successfulSearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tests in 'tests.github'.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.dragAndDrop.dragAndDrop.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.dragAndDrop.dragAndDropSelenide.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.dragAndDrop.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.githubSolutionEnterprize.githubSolutionEnterprize.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.testKolVlad.successfulSearchInGithub.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.BestContributorSelenide.andreiSolntsevShouldBeTheFirstContributor.executor": "Run",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.PracticeFormTests.executor": "Run",
+    "Gradle.PracticeFormTests.fillFormTest (1).executor": "Run",
+    "Gradle.PracticeFormTests.fillFormTest.executor": "Run",
+    "Gradle.PracticeFormWithPageObjectsTests.fillFormTest.executor": "Run",
+    "Gradle.PracticeFormWithPageObjectsTests.fillFormTestFull.executor": "Run",
+    "Gradle.PracticeFormWithPageObjectsTests.fillFormTestMin.executor": "Run",
+    "Gradle.SearchInGitHub.successfulSearchInGithub.executor": "Run",
+    "Gradle.SelenideRepositorySearch.shouldFindSelenideRepositoryAtTheTop.executor": "Run",
+    "Gradle.SelenideSoftAssertonsOpen.softAssertionsOpenAndHaveJUnit5.executor": "Run",
+    "Gradle.SimpleJUnitTest.successfulSearchTest (1).executor": "Run",
+    "Gradle.SimpleJUnitTest.successfulSearchTest.executor": "Run",
+    "Gradle.Tests in 'tests.github'.executor": "Run",
+    "Gradle.dragAndDrop.dragAndDrop.executor": "Run",
+    "Gradle.dragAndDrop.dragAndDropSelenide.executor": "Run",
+    "Gradle.dragAndDrop.executor": "Run",
+    "Gradle.githubSolutionEnterprize.githubSolutionEnterprize.executor": "Run",
+    "Gradle.testKolVlad.successfulSearchInGithub.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "build.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\t.rozova\AquaProjects\demoqa-tests-1\src\test\resources\IMG" />
@@ -142,7 +141,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PracticeFormWithPageObjectsTests.fillFormTest">
+  <component name="RunManager" selected="Gradle.PracticeFormWithPageObjectsTests.fillFormTestMin">
     <configuration name="PracticeFormTests.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,6 +190,54 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="PracticeFormWithPageObjectsTests.fillFormTestFull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.PracticeFormWithPageObjectsTests.fillFormTestFull&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PracticeFormWithPageObjectsTests.fillFormTestMin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.PracticeFormWithPageObjectsTests.fillFormTestMin&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="dragAndDrop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -215,61 +262,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="dragAndDrop.dragAndDrop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.selenide.dragAndDrop.dragAndDrop&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="dragAndDrop.dragAndDropSelenide" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;tests.selenide.dragAndDrop.dragAndDropSelenide&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PracticeFormWithPageObjectsTests.fillFormTestMin" />
+        <item itemvalue="Gradle.PracticeFormWithPageObjectsTests.fillFormTestFull" />
         <item itemvalue="Gradle.PracticeFormWithPageObjectsTests.fillFormTest" />
         <item itemvalue="Gradle.PracticeFormTests.fillFormTest" />
         <item itemvalue="Gradle.dragAndDrop" />
-        <item itemvalue="Gradle.dragAndDrop.dragAndDropSelenide" />
-        <item itemvalue="Gradle.dragAndDrop.dragAndDrop" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746456980161</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="delete musor">
+      <option name="closed" value="true" />
+      <created>1746612226038</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746612226038</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +414,8 @@
     <MESSAGE value="update with githubSolutionEnterprize" />
     <MESSAGE value="update dragAndDrop" />
     <MESSAGE value="added page object" />
-    <option name="LAST_COMMIT_MESSAGE" value="added page object" />
+    <MESSAGE value="delete musor" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete musor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -15,7 +15,7 @@ public class PracticeFormWithPageObjectsTests extends TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
 
     @Test
-    void fillFormTest() {
+    void fillFormTestFull() {
         registrationPage
                 .openPage()
                 .setFirstName("Ivan")
@@ -43,4 +43,30 @@ public class PracticeFormWithPageObjectsTests extends TestBase {
                 .checkResult("State and City", "NCR Delhi");
 
     }
+
+    @Test
+    void fillFormTestMin() {
+        registrationPage
+                .openPage()
+                .setFirstName("Ivan")
+                .setLastName("Ivanov")
+                .setGenter("Male")
+                .setUserNumber("79999999999")
+                .clickButtonSubmit()
+
+                .checkResultTitle("Thanks for submitting the form")
+                .checkResult("Student Name", "Ivan Ivanov")
+                .checkResult("Gender", "Male")
+                .checkResult("Mobile", "7999999999");
+    }
+
+    @Test
+    void fillFormTestBad() {
+        registrationPage
+                .openPage()
+                .clickButtonSubmit()
+                .checkValidation();
+    }
 }
+
+
