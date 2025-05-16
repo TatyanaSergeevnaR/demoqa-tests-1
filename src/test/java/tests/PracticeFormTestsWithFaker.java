@@ -1,7 +1,9 @@
 package tests;
 
 import com.github.javafaker.Faker;
+import datainput.TestDataFaker;
 import org.junit.jupiter.api.Test;
+import pages.RegistrationPage;
 
 import java.util.Locale;
 
@@ -10,50 +12,42 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
+import static datainput.TestData.firstName;
 
 
-public class PracticeFormTestsWithFaker extends TestBase{
+public class PracticeFormTestsWithFaker extends TestBase {
 
+
+    RegistrationPage registrationPage = new RegistrationPage();
+    TestDataFaker testDataFaker = new TestDataFaker();
 
     @Test
-    void fillFormTest() {
+    void fillFormTestFull() {
+        registrationPage
+                .openPage()
+                .setFirstName(testDataFaker.firstName)
+                .setLastName(testDataFaker.lastName)
+                .setUserEmail(testDataFaker.userEmail)
+                .setGenter(testDataFaker.genter)
+                .setUserNumber(testDataFaker.userNumber)
+                .setDateOfBirth(testDataFaker.dayOfBirth, testDataFaker.monthOfBirth, testDataFaker.yearOfBirth)
+                .setSubjects(testDataFaker.subject)
+                .setHobbies(testDataFaker.hobbies)
+                .setPicture("IMG/wr-750.webp")
+                .setAddress(testDataFaker.streetAddress, testDataFaker.state, testDataFaker.city)
+                .clickButtonSubmit()
 
-        Faker faker = new Faker(new Locale("en-GB"));
-
-
-        String firstName = faker.name().firstName();
-        String lastName = faker.name().lastName();
-        String userEmail = faker.internet().emailAddress();
-        String streetAddress = faker.address().streetAddress();
-
-        open("/automation-practice-form");
-        $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
-//        executeJavaScript("$('#fixedban').remove()");
-//        executeJavaScript("$('footer').remove()");
-
-        $("#firstName").setValue(firstName);
-        $("#lastName").setValue(lastName);
-        $("#userEmail").setValue(userEmail);
-        $("#genterWrapper").$(byText("Other")).click();
-        $("#userNumber").setValue("79999999999");
-        $("#dateOfBirthInput").click();
-        $(".react-datepicker__month-select").selectOption("March");
-        $(".react-datepicker__year-select").selectOption("2007");
-        $(".react-datepicker__day--025:not(.react-datepicker__day--outside-month)").click();
-        $("#subjectsInput").setValue("Physics").pressEnter();
-        $("#hobbiesWrapper").$(byText("Music")).click();
-        $("#uploadPicture").uploadFromClasspath("IMG/wr-750.webp");
-        $("#currentAddress").setValue(streetAddress);
-        $("#state").scrollIntoView(true).click();
-        $("#stateCity-wrapper").$(byText("NCR")).click();
-        $("#city").click();
-        $("#stateCity-wrapper").$(byText("Delhi")).click();
-        $("#submit").click();
-
-        $(".modal-dialog").should(appear);
-        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-        $(".table-responsive").shouldHave(text("Student Name"), text(firstName), text(lastName),
-                text("Student Email"), text(userEmail), text(streetAddress));
+                .checkResultTitle("Thanks for submitting the form")
+                .checkResult("Student Name", testDataFaker.firstName + " " + testDataFaker.lastName)
+                .checkResult("Student Email", testDataFaker.userEmail)
+                .checkResult("Gender", testDataFaker.genter)
+                .checkResult("Mobile", testDataFaker.userNumber)
+                .checkResult("Date of Birth", testDataFaker.dayOfBirth + " " + testDataFaker.monthOfBirth + ","  + testDataFaker.yearOfBirth)
+                .checkResult("Subjects", testDataFaker.subject)
+                .checkResult("Hobbies", testDataFaker.hobbies)
+                .checkResult("Picture", "wr-750.webp")
+                .checkResult("Address", testDataFaker.streetAddress)
+                .checkResult("State and City", testDataFaker.state + " " + testDataFaker.city);
 
     }
 

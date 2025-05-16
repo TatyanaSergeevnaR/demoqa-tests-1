@@ -1,4 +1,4 @@
-package tests;
+package datainput;
 
 public class TestData {
     public static String

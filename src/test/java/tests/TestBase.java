@@ -9,7 +9,7 @@ public class TestBase {
         Configuration.browserSize = "1920*1080";
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
-//        Configuration.holdBrowserOpen = true;
+        Configuration.holdBrowserOpen = true;
         Configuration.browser = "chrome";
 //        Configuration.timeout = Long.parseLong("5000"); // default 4000
         Configuration.timeout = 10000;
